@@ -1,19 +1,13 @@
-public class BannerApp {
+public class UC4{
     public static void main(String[] args) {
-        displayUC4Banner();
-    }
-
-    public static void displayUC4Banner() {
-        String[] bannerLines = {
-            "*********************************",
-            "* *",
-            "* WELCOME TO OOPS APP UC4    *",
-            "* Modularity via Arrays      *",
-            "* *",
-            "*********************************"
+        String[] banner = {
+            "  *** *** **** **** ",
+            " * * * * * * * ",
+            " * * * * **** *** ",
+            " * * * * * *",
+            "  *** *** * **** "
         };
-
-        for (String line : bannerLines) {
+        for (String line : banner) {
             System.out.println(line);
         }
     }
