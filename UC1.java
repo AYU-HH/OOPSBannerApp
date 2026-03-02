@@ -1,4 +1,5 @@
-class uc1_printoops
-public static void main(string ardd[])
-system.out.printlm("OOPS");
+public class UC1 {
+  public static void main(String[] args) {
+    System.out.println(x: "00PS");
+  }
 }
